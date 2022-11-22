@@ -1,7 +1,7 @@
 import profileIcon from '../assets/profileIcon.svg';
 import getPhotoUrl from 'get-photo-url';
 import React, { useState } from 'react';
-import { db } from '../dexie.js';
+// import { db } from '../dexie.js';
 
 const Bio = () => {
   const [userDetails, setUserDetails] = useState({
