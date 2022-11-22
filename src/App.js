@@ -1,11 +1,16 @@
-import Nav from './components/Nav';
+import { Nav, Bio, Gallery } from './components';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className='App'>
+    <>
       <Nav />
-    </div>
+      <div className='container'>
+        <Bio />
+        <Gallery />
+      </div>
+    </>
   );
 }
 
